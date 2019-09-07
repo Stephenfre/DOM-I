@@ -72,15 +72,16 @@ ctaImg.setAttribute("src", siteContent["cta"]["img-src"]);
 
 const mainHeaders = document.querySelectorAll("h4");
 
-// <<<<< h4 >>>>> //
+// <<<<< headers >>>>> //
 mainHeaders[0].innerHTML = siteContent["main-content"]["features-h4"];
 mainHeaders[1].innerHTML = siteContent["main-content"]["about-h4"];
 mainHeaders[2].innerHTML = siteContent["main-content"]["services-h4"];
 mainHeaders[3].innerHTML = siteContent["main-content"]["product-h4"];
 mainHeaders[4].innerHTML = siteContent["main-content"]["vision-h4"];
 
+// <<<<< paragraphs >>>>> //
 const mainPara = document.querySelectorAll("p");
-// <<<<< p >>>>> //
+
 mainPara[0].innerHTML = siteContent["main-content"]["features-content"];
 mainPara[1].innerHTML = siteContent["main-content"]["about-content"];
 mainPara[2].innerHTML = siteContent["main-content"]["services-content"];
